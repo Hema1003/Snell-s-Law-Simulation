@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.laser-box {
+    position: relative;
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #d3eafc;
+    border: 2px solid #0077be;
+    border-radius: 10px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.laser-control {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 300px;
+}
+
+.info {
+    margin-top: 20px;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+}

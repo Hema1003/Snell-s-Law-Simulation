@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snell's Law Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snell's Law Simulation</h1>
+
+        <div class="laser-box">
+            <div class="laser-control">
+                <label for="angleSlider">Laser Angle: <span id="angleDisplay">45</span>°</label>
+                <input type="range" id="angleSlider" min="0" max="90" value="45">
+            </div>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="info">
+            <p><strong>Incident Angle (θ<sub>1</sub>):</strong> <span id="incidentAngle">45°</span></p>
+            <p><strong>Refraction Angle (θ<sub>2</sub>):</strong> <span id="refractedAngle">32.76°</span></p>
+            <p><strong>Refractive Index of Air (n<sub>1</sub>):</strong> 1.00</p>
+            <p><strong>Refractive Index of Water (n<sub>2</sub>):</strong> 1.33</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
